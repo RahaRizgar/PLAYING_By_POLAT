@@ -3,7 +3,7 @@ const polat = new Discord.Client();
 //////// playing or dnd  streaming ////////
 polat.on("ready", () => {
   console.log(Online In Servers);
-  let statuses = [POLAT BOT]; []; [];
+  let statuses = [FEROX BOT]; []; [];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     polat.user.setActivity(STREAMING, {
@@ -14,12 +14,12 @@ polat.on("ready", () => {
 });
 ///////////////////////
 polat.on("ready", () => {
-  var join = polat.channels.get(""); /// id voice
+  var join = polat.channels.get("936291073842622475"); /// id voice
   if (join) join.join();
 });
 //////////////// tokn lera da bne
 
-polat.login ("");
+polat.login ("mfa");
 
 
 
